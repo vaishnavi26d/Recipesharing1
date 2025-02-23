@@ -1,0 +1,73 @@
+/* Background Styling */
+.login-background {
+  background-image: url("https://source.unsplash.com/1600x900/?food,background"); /* Online image */
+  background-size: cover;
+  background-color: #8c8787;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container Styling */
+.login-container {
+  background: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Heading */
+h2 {
+  color: #8c4444;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Form Styling */
+.form-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Error Message */
+.alert-danger {
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Register Link */
+p.text-center a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+p.text-center a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .login-container {
+    width: 90%;
+  }
+}

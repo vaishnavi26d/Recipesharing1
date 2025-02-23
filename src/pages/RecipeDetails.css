@@ -1,0 +1,52 @@
+/* Recipe Details Container */
+.recipe-details-container {
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  /* Recipe Card Styling */
+  .recipe-details-card {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .recipe-details-card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Recipe Image */
+  .recipe-image {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  /* Ingredients and Steps Lists */
+  .ingredients-list,
+  .steps-list {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  
+  .ingredients-list li,
+  .steps-list li {
+    margin-bottom: 5px;
+  }
+  
+  /* Recipe Actions */
+  .recipe-actions .btn {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .recipe-details-container {
+      width: 90%;
+    }
+  
+    .recipe-image {
+      height: 250px;
+    }
+  }
