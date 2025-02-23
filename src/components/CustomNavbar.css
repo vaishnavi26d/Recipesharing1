@@ -1,0 +1,21 @@
+.navbar-custom {
+    background-color: #343a40 !important;
+    padding: 15px 20px;
+  }
+  
+  .navbar-custom .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffcc00 !important;
+  }
+  
+  .navbar-custom .nav-link {
+    color: white !important;
+    font-size: 1.2rem;
+    margin-left: 15px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #ffcc00 !important;
+  }

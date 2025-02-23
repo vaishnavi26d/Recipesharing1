@@ -1,0 +1,54 @@
+/* Container Styling */
+.recipes-container {
+    text-align: center;
+  }
+  
+  /* Recipe Card Styling */
+  .recipe-card {
+    height: 100%; /* Makes sure all cards are of equal height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .recipe-card:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Card Image */
+  .recipe-card img {
+    height: 120px; /* Makes all images the same size */
+    object-fit: cover;
+  }
+  
+  /* Card Body */
+  .recipe-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  /* Button Styling */
+  .recipe-card .btn-primary {
+    background-color: #ff8000;
+    border: none;
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  
+  .recipe-card .btn-primary:hover {
+    background-color: #b34e00;
+  }
+  
+  /* Responsive Grid */
+  @media (max-width: 768px) {
+    .recipe-card {
+      font-size: 14px;
+    }
+  }
